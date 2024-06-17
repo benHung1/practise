@@ -111,6 +111,10 @@ onMounted(fetchArticles)
       max-width: 90%;
     }
 
+    @media (max-width: 500px) {
+      max-width: 100%;
+    }
+
     @media (max-width: 450px) {
       overflow: hidden;
     }
